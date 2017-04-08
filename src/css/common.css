@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	margin-top: 50px;
+	
+}
+.container .title{
+	border-bottom: 1px solid #f3f3f3;
+	height: 70px;
+}
+.container .title .info{
+	width:1221px;
+	margin: auto;
+}
+
+.container .title h3{
+	float: left;
+	font-size: 22px;
+	line-height: 70px;
+	color: #666;
+	background: url('../assets/bg_line.png') no-repeat;
+	background-position: left bottom;
+}
+.container .title .more{
+	float: right;
+	line-height: 70px;
+	font-size: 14px;
+}
+.container .title .more a{
+	color: #999; 
+}
+.container .title .more i{
+	display: inline-block;
+	/*float: right;*/
+	width: 10px;
+	height: 8px;
+	background: url(../assets/more.png);
+}
+img{
+	border: 0;
+}
